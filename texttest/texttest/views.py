@@ -5,7 +5,7 @@ def index(request):
     # param = {'name' : 'priti','address' : 'Rajarhat'}
     # return render(request,"index.html",param)
     # return HttpResponse("Homw page")
-    return render(request, "index3.html")
+    return render(request, "index.html")
 
 
 def analysis(request):
